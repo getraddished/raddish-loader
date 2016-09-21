@@ -14,20 +14,8 @@
     "type": "git",
     "url": "https://github.com/getraddished/raddish-loader.git"
   },
-  "scripts": {
-    "test": "mocha tests/* -R spec -t 15000",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks -t 15000 tests/"
-  },
   "dependencies": {
-    "raddish-inflector": "*",
-    "clone": "*"
-  },
-  "devDependencies": {
-    "istanbul": "0.4.5",
-    "mocha": "3.0.2",
-    "mock-req": "0.2.0",
-    "mock-res": "0.3.0",
-    "should": "11.1.0"
+    "raddish-inflector": "*"
   },
   "keywords": [
     "promises",
