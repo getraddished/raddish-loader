@@ -17,6 +17,15 @@
   "dependencies": {
     "raddish-inflector": "*"
   },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "istanbul": "0.4.1"
+  },
+  "scripts": {
+    "test": "mocha -t 15000",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks -t 15000 tests/"
+  },
   "keywords": [
     "promises",
     "fallback"
