@@ -1,7 +1,8 @@
 var Loader = require('../index'),
-    should = require('should'),
     identifier = new Loader.Identifier('type://application/package.path.name'),
     core = new Loader.Identifier('core:database.table.default');
+
+require('should');
 
 describe('Initialization', function() {
     describe('Normal identifier', function() {
