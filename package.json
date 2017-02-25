@@ -1,7 +1,7 @@
 {
   "name": "raddish-loader",
   "description": "Raddish object loader made abstract",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "author": {
     "name": "Jasper van Rijbroek",
@@ -16,6 +16,15 @@
   },
   "dependencies": {
     "raddish-inflector": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "istanbul": "0.4.1"
+  },
+  "scripts": {
+    "test": "mocha -t 15000",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks -t 15000"
   },
   "keywords": [
     "promises",
