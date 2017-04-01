@@ -1,3 +1,5 @@
+'use strict';
+
 var Locator = require('../../index').Locator;
 
 class CustomLocator extends Locator {

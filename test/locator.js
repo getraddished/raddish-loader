@@ -1,3 +1,5 @@
+'use strict';
+
 var Locator = require('../index').Locator,
     Identifier = require('../index').Identifier,
     Loader = require('../index').Loader.getInstance();

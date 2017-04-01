@@ -1,3 +1,5 @@
+'use strict';
+
 var Loader = require('../index'),
     identifier = new Loader.Identifier('type://application/package.path.name'),
     core = new Loader.Identifier('core:database.table.default');

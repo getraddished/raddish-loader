@@ -1,3 +1,5 @@
+'use strict';
+
 var Loader = require('../index').Loader,
     Instance = Loader.getInstance();
 
