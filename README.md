@@ -1,6 +1,10 @@
 # raddish-loader
 This is the object loader of Raddish
 
+# DEPRECATED!!
+This project is no longer maintained, loading of modules is now done in the start of the file,  
+This by using require or import.
+
 ## How does it work
 The object loader is build in a few parts,
 one of the is the Identifier Object.
